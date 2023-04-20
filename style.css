@@ -1,0 +1,208 @@
+*{
+   margin:0px;
+   padding:0px;
+   box-sizing:border-box;
+}
+body{
+   position:relative;
+   width:100%;
+   min-height:100vh;
+   background:#468499;
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   font-family:helvetica;
+   padding:20px;
+   flex-direction: column;
+
+}
+h1{
+   font-size:20px;
+   font-weight:600;
+   font-family:cursive;
+   text-transform:uppercase;
+   padding: 40px;
+
+}
+.container{
+   width:50%;
+   background:#0a222a;
+   flex-direction: column;
+   border-radius:15px;
+   padding:16px;
+   color:#fff;
+}
+.container h4{
+   font-size:20px;
+   color:#fff;
+   text-align:center;
+   margin-bottom:10px;
+   font-weight:400;
+   text-transform:uppercase;
+}
+.container .form{
+   width:100%;
+   position:relative;
+   margin:2rem 0;
+}
+.container .form input{
+   width:100%;
+   background:#3c5963;
+   border:none;
+   outline:none;
+   padding:15px 145px 15px 12px;
+   border-radius:12px;
+   color:#fff;
+   font-size:18px;
+}
+.container .form button{
+   position:absolute;
+   top:3px;
+   right:3px;
+   margin-top:2px;
+   background:#040825;
+   padding:10px 13px;
+   color:#fff;
+   border-radius:8px;
+   border:none;
+   outline:none;
+   font-size:20px;
+   cursor:pointer;
+}
+.container .nameBox{
+   position:relative;
+   background:#1f3841;
+   border-radius:10px;
+   padding:12px;
+}
+.container .nameBox span{
+   font-size:1.2rem;
+   font-weight:300;
+   text-transform:capitalize;
+   letter-spacing:.3px;
+   font-family: 'Courier New', Courier, monospace;
+
+}
+@media only screen and (min-width:290px){
+   .container h4{
+      font-size:10px;
+   }
+}
+  
+@media only screen and (min-width:400px){
+  
+  .container{
+     width:80%
+  }
+   .container h4{
+   font-size:16px;
+   text-transform:capitalize;
+   font-variant:small-caps;
+   }
+   .container.form input{
+      width:90%;
+   }
+   .container .nameBox span{
+      font-size:1.4rem;
+      font-family:helvetica;
+   
+   }
+}
+
+ @media only screen and (max-width:400px){ 
+    .container{
+       width:auto;
+    }
+   .container h4{
+   font-size:15px;
+   text-transform:capitalize;
+   font-variant:small-caps;
+   }
+   .container.form input{
+      width:80%;
+   }
+   .container .nameBox span{
+      font-size:15px;
+      letter-spacing: .5px;
+      word-spacing: .4px;
+      font-weight:600;
+      font-family:cursive;
+   }
+   .container .form button{
+      top:6px;
+      padding:10px 5px;
+      color:#fff;
+      border-radius:6px;
+      font-size:12px;
+      cursor:pointer;
+   }
+   .container .form input{
+      width:100%;
+      background:#3c5963;
+      padding:15px 30px 15px 12px;
+      border-radius:12px;
+      color:#fff;
+      font-size:18px;
+   }
+} 
+   @media only screen and (max-width:900px){ 
+  .container h4{
+     font-size:24px;
+  }
+  .container .nameBox span{
+      font-size:30px;
+  }
+   }
+   @media only screen and (min-width:900px){
+      .container h4{
+         font-size:26px;
+         padding:25px;
+      }
+      .container .nameBox span{
+          font-size:30px;
+      }
+      .container .form input{
+        margin-bottom:15px;
+      }
+      .container .nameBox span{
+         font-size:30px;
+         margin-bottom:20px;
+     }
+     .container{
+      padding-bottom:30px
+      }
+   }
+   @media only screen and (max-width:1300px){
+     
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
